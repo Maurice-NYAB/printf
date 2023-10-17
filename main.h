@@ -19,5 +19,5 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 int print_o(va_list arg);
 int print_x(va_list arg);
-
+int print_X(va_list arg);
 #endif
