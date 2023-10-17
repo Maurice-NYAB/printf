@@ -14,6 +14,7 @@ int print_int(va_list arg_list);
 int print_dec(va_list arg_list);
 int print_rot13(va_list arg_list);
 int print_bi(va_list arg);
+int print_unsigned(va_list arg);
 int _printf(const char *format, ...);
 int _putchar(char c);
 
