@@ -17,5 +17,7 @@ int print_bi(va_list arg);
 int print_unsigned(va_list arg);
 int _printf(const char *format, ...);
 int _putchar(char c);
+int print_o(va_list arg);
+int print_x(va_list arg);
 
 #endif
