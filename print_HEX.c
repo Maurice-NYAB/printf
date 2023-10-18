@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_X - convert to hex
+ * print_HEX - convert to hex
  * @arg: variable parameter
  * Return: counter
  */
 
-int print_X(va_list arg)
+int print_HEX(va_list arg)
 {
 	int i, counter = 0
 	int *array;
@@ -30,6 +30,7 @@ int print_X(va_list arg)
 		if (array[i] > 9)
 			array[i] = array[i] + 7;
 		_putchar(array[i] + '0');
+	}
 	free(array);
 	return (counter);
 }
