@@ -21,6 +21,8 @@ int print_o(va_list arg);
 int print_hex(va_list arg);
 int print_HEX(va_list arg);
 int print_pointer(va_list arg);
+int print_s_string(va_list arg_list);
 int print_hex_extra(unsigned long int num);
 int print_revs(va_list arg);
+int print_HEX_upper(unsigned int num);
 #endif
