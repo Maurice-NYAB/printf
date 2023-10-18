@@ -18,6 +18,8 @@ int print_unsigned(va_list arg);
 int _printf(const char *format, ...);
 int _putchar(char c);
 int print_o(va_list arg);
-int print_x(va_list arg);
-int print_X(va_list arg);
+int print_hex(va_list arg);
+int print_HEX(va_list arg);
+int print_pointer(va_list arg)
+int print_hex_extra(unsigned long int num)
 #endif

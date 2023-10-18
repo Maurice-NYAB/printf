@@ -3,6 +3,7 @@
 /**
  * print_pointer - print a pointer
  * @arg: argument
+ * Return: int
  */
 
 int print_pointer(va_list arg)
@@ -23,4 +24,5 @@ int print_pointer(va_list arg)
 	_putchar('0');
 	_putchar('x');
 	b = print_hex_extra(a);
+	return (b + 2)
 }
