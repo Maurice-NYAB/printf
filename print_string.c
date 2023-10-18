@@ -15,7 +15,7 @@ int print_s_string(va_list arg_list)
 	s = va_arg(arg_list, char *);
 	if (s == NULL)
 		s = "(null)";
-	for (i = 0; s[i] !='\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] < 32 || s[i] >= 127)
 		{

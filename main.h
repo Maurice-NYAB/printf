@@ -4,6 +4,16 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <string.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <limits.h>
+
+
+typedef struct format
+{
+	char *id;
+	int (*f)();
+} match;
 
 int printf_string(va_list arg_list);
 int printf_char(va_list arg_list);
